@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apollo Eğitim Kurumları</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <!-- font-awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- goole fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- swipper js -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <style>
+      body {
+        background-image: url(images/background\ texture.psd);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+      <div class="container nav__container">
+        <a href="index.html"><h4>ApolloEğitim</h4></a>
+        <ul class="nav__menu">
+          <li><a href="index.html">Anasayfa</a></li>
+          <li><a href="about.html">Hakkımızda</a></li>
+          <li><a href="courses.html">Kurslarımız</a></li>
+          <li><a href="contact.html">İletişim</a></li>
+        </ul>
+        <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+        <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+    </nav>
+
+    <!-- HEADER -->
+
+    <header>
+      <div class="container header__container">
+        <div class="header__left">
+          <h1>Eğitimde Bir Dünya Markası</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni est
+            autem cupiditate saepe, nostrum voluptatum. Porro officia blanditiis
+            consequatur perspiciatis.
+          </p>
+          <a href="courses.html" class="btn btn-primary">Haydi Kaydol</a>
+        </div>
+
+        <div class="header__right">
+          <div class="header__right-image">
+            <img src="images/header.png" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="categories">
+      <div class="container categories__container">
+        <div class="categories__left">
+          <h1>Neden Bizi Tercih Etmelisin ?</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium
+            corrupti tempore provident perferendis quidem voluptates ex eaque
+            consequuntur, sint earum culpa! Officia, consectetur minima!
+            Ratione!
+          </p>
+          <a href="#" class="btn">Daha Fazla Oku...</a>
+        </div>
+
+        <div class="categories__right">
+          <article class="category">
+            <span class="category__icon"
+              ><i class="fa-brands fa-bitcoin"></i
+            ></span>
+            <h5>Yenilikçi Eğitimler</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
+              impedit?
+            </p>
+          </article>
+
+          <article class="category">
+            <span class="category__icon"
+              ><i class="fa-solid fa-palette"></i
+            ></span>
+            <h5>İlgi Çekici Konular</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
+              impedit?
+            </p>
+          </article>
+
+          <article class="category">
+            <span class="category__icon"
+              ><i class="fa-solid fa-coins"></i
+            ></span>
+            <h5>Uygun Fiyat</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
+              impedit?
+            </p>
+          </article>
+
+          <article class="category">
+            <span class="category__icon"
+              ><i class="fa-solid fa-bullhorn"></i
+            ></span>
+            <h5>Etkinliklere Doyacaksın</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
+              impedit?
+            </p>
+          </article>
+
+          <article class="category">
+            <span class="category__icon"
+              ><i class="fa-solid fa-music"></i
+            ></span>
+            <h5>Eğlenceli Ortam</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
+              impedit?
+            </p>
+          </article>
+
+          <article class="category">
+            <span class="category__icon"
+              ><i class="fa-solid fa-puzzle-piece"></i
+            ></span>
+            <h5>Eğitim Sonu Desteği</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
+              impedit?
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses  -->
+    <section class="courses">
+      <h2>En Güncel Kurslarımız</h2>
+      <div class="container courses__container">
+        <article class="course">
+          <div class="course__image">
+            <img src="images/course1.jpg" />
+          </div>
+          <div class="course__info">
+            <h4>Sosyal Medya Kursu</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Adipisci, quam? Quidem soluta est dolorum iure?
+            </p>
+            <a href="courses.html" class="btn btn-primary"> İncele</a>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course__image">
+            <img src="images/course2.jpg" />
+          </div>
+          <div class="course__info">
+            <h4>Site Yönetimi Kursu</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Adipisci, quam? Quidem soluta est dolorum iure?
+            </p>
+            <a href="courses.html" class="btn btn-primary"> İncele</a>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course__image">
+            <img src="images/course3.jpg" />
+          </div>
+          <div class="course__info">
+            <h4>Hesap Yönetim Paneli Kursu</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Adipisci, quam? Quidem soluta est dolorum iure?
+            </p>
+            <a href="courses.html" class="btn btn-primary">İncele</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SSS -->
+    <section class="faqs">
+      <h2>Sıkça Sorulan Sorular</h2>
+      <div class="container faqs__container">
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>Neden Bizi Tercih Etmelisiniz ?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+              ratione voluptatem laboriosam dicta molestias quo delectus
+              temporibus quidem enim, illo exercitationem ad corporis deserunt
+              commodi.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>Eğitim Süreleri Ne Kadar ?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+              ratione voluptatem laboriosam dicta molestias quo delectus
+              temporibus quidem enim, illo exercitationem ad corporis deserunt
+              commodi.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>Etkinliklere Nasıl Katılırım ?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+              ratione voluptatem laboriosam dicta molestias quo delectus
+              temporibus quidem enim, illo exercitationem ad corporis deserunt
+              commodi.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>Derse Katılım Önemli Mi ?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+              ratione voluptatem laboriosam dicta molestias quo delectus
+              temporibus quidem enim, illo exercitationem ad corporis deserunt
+              commodi.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>Kurs Araç-Gereçleri Neler ?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+              ratione voluptatem laboriosam dicta molestias quo delectus
+              temporibus quidem enim, illo exercitationem ad corporis deserunt
+              commodi.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>Ödeme Koşulları ?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+              ratione voluptatem laboriosam dicta molestias quo delectus
+              temporibus quidem enim, illo exercitationem ad corporis deserunt
+              commodi.
+            </p>
+          </div>
+        </article>
+
+        
+      </div>
+    </section>
+
+    <!-- testemonials -->
+
+    <section class="container testimonials__container mySwiper">
+      <h2>Öğrenci Yorumları</h2>
+      <div class="swiper-wrapper">
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/avatar1.jpg" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Meryem Bulut</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              facilis sed voluptatibus sit?
+            </p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/avatar2.jpg" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Taner Kara</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              facilis sed voluptatibus sit?
+            </p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/avatar3.jpg" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Seda Ak</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              facilis sed voluptatibus sit?
+            </p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/avatar4.jpg" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Gülben Were</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              facilis sed voluptatibus sit?
+            </p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/avatar5.jpg" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Gülbahar Reyhan</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              facilis sed voluptatibus sit?
+            </p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/avatar6.jpg" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Hatice Erkan</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              facilis sed voluptatibus sit?
+            </p>
+          </div>
+        </article>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+      <div class="container footer__container">
+        <div class="footer__1">
+          <a href="index.html" class="footer__logo"><h4>AvciDesing</h4></a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+            dolore esse. Aperiam quibusdam officiis laborum.
+          </p>
+        </div>
+        <div class="footer__2">
+          <h4>Kısayollar</h4>
+          <ul class="permalinks">
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="about.html">Hakkımızda</a></li>
+            <li><a href="courses.html">Kurslarımız</a></li>
+            <li><a href="contact.html">İletişim</a></li>
+          </ul>
+        </div>
+        <div class="footer__3">
+          <h4>Vizyonumuz</h4>
+          <ul class="privacy">
+            <li><a href="#">Eğitimde Öncü Lider</a></li>
+            <li><a href="#">Emek ve Hizmet</a></li>
+            <li><a href="#">Daima Güven</a></li>
+          </ul>
+        </div>
+        <div class="footer__4">
+          <h4>İletişim</h4>
+          <div>
+            <p>+414 414 41 14</p>
+            <p>avcisalihoffical@gmail.com</p>
+          </div>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <small>Copyright &copy; SALİH AVCI Udemig Proje</small>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        // when window width is 600px
+        breakpoints: {
+          600: {
+            slidesPerView: 2,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
